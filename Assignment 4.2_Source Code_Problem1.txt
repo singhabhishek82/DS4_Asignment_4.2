@@ -1,0 +1,8 @@
+# Assignement 4.2 : Problem Statement 1: Write a Python program using function concept that maps list of words into a list of integers
+#representing the lengths of the corresponding words.
+
+lst1 = ["ab","cde","fghi","k"]
+def length(x):
+    return x
+result = (map(lambda x: len(x),lst1))
+print(list(result))
